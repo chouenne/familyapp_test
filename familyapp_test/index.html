@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>To Buy APP</title>
+</head>
+<body>
+    <section id="insert">
+        <form id="insert-form" action="app/insert.php" method="post">
+            <p>
+                <label for="store">Where to Buy:</label>
+                <input type="text" name="store" id="store">
+            </p>
+            <p>
+                <label for="item">What To Buy:</label>
+                <input type="text" name="item" id="item">
+            </p>
+            <p>
+                <label for="user_name">For Whom:</label>
+                <input type="text" name="user_name" id="user_name">
+            </p>
+            <input id="submit" type="submit" value="Add">
+        </form>
+    </section>
+
+    <section id="display"></section>
+
+    <script src="js/buyitem.js"></script>
+
+</body>
+</html>

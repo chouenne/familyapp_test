@@ -1,0 +1,59 @@
+/**  {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #EFA880 0%, rgba(64, 119, 132, 0.90) 100%);
+    color:black;
+    background-size: cover;
+} 
+
+ .deleteicon{
+    position: absolute;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    transform: translateX(-20%);
+    cursor: pointer;
+}
+
+.recordlines{
+    padding:1rem;
+    background-color: rgba(255, 225, 255, 0.3);
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px black;
+    position: relative;
+} 
+
+.editicon{
+    width: 25px;
+    height: 25px;
+} 
+
+.recordlines{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+
+#display{
+    margin-top: 2rem;
+}
+
+
+.editicon{
+    cursor: pointer;
+    position: absolute;
+    left:100px; 
+}  
+
+
+/* #update-form{
+    position: absolute;
+    display:inline-block;
+}  */
